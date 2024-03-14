@@ -11,10 +11,11 @@ import Accomodate from "./chapter_07/Accomodate";
 import ConfirmButton from "./chapter_08/ConfirmButton";
 import ConfirmButtonClassField from "./chapter_08/ConfirmButtonClassField";
 import ConfirmButtonFunction from "./chapter_08/ConfirmButtonFunction";
+import LandingPage from "./chapter_09/LandingPage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ConfirmButtonFunction />
+    <LandingPage />
   </React.StrictMode>,
   document.getElementById("root")
 );

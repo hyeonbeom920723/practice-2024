@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import styles from "./styles.module.scss";
 
 class Notification extends React.Component {
   constructor(props) {
@@ -20,8 +20,8 @@ class Notification extends React.Component {
 
   render() {
     return (
-      <div className={"wrapper"}>
-        <span className={"message-text"}>{this.props.message}</span>
+      <div className={styles.wrapper}>
+        <span className={styles.messageText}>{this.props.message}</span>
       </div>
     );
   }
