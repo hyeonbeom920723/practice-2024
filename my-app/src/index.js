@@ -12,10 +12,11 @@ import ConfirmButton from "./chapter_08/ConfirmButton";
 import ConfirmButtonClassField from "./chapter_08/ConfirmButtonClassField";
 import ConfirmButtonFunction from "./chapter_08/ConfirmButtonFunction";
 import LandingPage from "./chapter_09/LandingPage";
+import AttendanceBook from "./chapter_10/AttendanceBook";
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPage />
+    <AttendanceBook />
   </React.StrictMode>,
   document.getElementById("root")
 );
