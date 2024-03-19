@@ -13,10 +13,11 @@ import ConfirmButtonClassField from "./chapter_08/ConfirmButtonClassField";
 import ConfirmButtonFunction from "./chapter_08/ConfirmButtonFunction";
 import LandingPage from "./chapter_09/LandingPage";
 import AttendanceBook from "./chapter_10/AttendanceBook";
+import Signup from "./chapter_11/Signup";
 
 ReactDOM.render(
   <React.StrictMode>
-    <AttendanceBook />
+    <Signup />
   </React.StrictMode>,
   document.getElementById("root")
 );
