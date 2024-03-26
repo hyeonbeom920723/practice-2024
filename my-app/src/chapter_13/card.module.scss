@@ -1,0 +1,10 @@
+// TODO: Prop 을 어떻게 받을수있을까요?
+$background-color: backgroundProp;
+
+.cardContainer {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px grey;
+  background-color: var($background-color);
+}
