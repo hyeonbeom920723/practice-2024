@@ -17,10 +17,11 @@ import Signup from "./chapter_11/Signup";
 import Calculator from "./chapter_12/Calculator";
 import Profilecard from "./chapter_13/ProfileCard";
 import DarkOrLight from "./chapter_14/DarkOrLight";
+import Blocks from "./chapter_15/Blocks";
 
 ReactDOM.render(
   <React.StrictMode>
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>,
   document.getElementById("root")
 );
